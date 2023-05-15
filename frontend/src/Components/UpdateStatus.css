@@ -1,0 +1,29 @@
+.wrapper{
+    width: 700px;
+    height: 580px;
+    
+    
+}
+
+.wrapper > div > textarea{
+    width: 100%;
+    padding: 1rem;
+    height: 59px;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+    border-color: #bfbfbf;
+
+}
+
+.wrapper > div > textarea:is(:focus, :valid){
+    /* border-color: #4671EA;
+    border-width: 1px; */
+} 
+
+
+.wrapper > div > textarea::-webkit-scrollbar{
+    width: 0;
+
+
+}
